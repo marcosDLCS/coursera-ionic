@@ -38,6 +38,25 @@
           "comment": "It's your birthday, we're gonna party!",
           "author": "25 Cent",
           "date": "2011-12-02T17:57:28.556094Z"
+        },
+        {
+          "rating": "5",
+          "author": "Marcos",
+          "comment": "Genialicioso!",
+          "date": "2016-07-10T15:48:48.977Z"
+        },
+        {
+          "rating": "5",
+          "author": "Marcos",
+          "comment": "Genialicioso!",
+          "date": "2016-07-10T15:50:13.077Z"
+        },
+        {
+          "rating": 5,
+          "date": "2016-07-10T16:04:49.557Z"
+        },
+        {
+          "date": "2016-07-10T16:05:20.956Z"
         }
       ]
     },
@@ -47,7 +66,7 @@
       "image": "images/zucchipakoda.png",
       "category": "appetizer",
       "label": "",
-      "price": "1.99",
+      "price": 1.99,
       "description": "Deep fried Zucchini coated with mildly spiced Chickpea flour batter accompanied with a sweet-tangy tamarind sauce",
       "comments": [
         {
@@ -79,6 +98,16 @@
           "comment": "It's your birthday, we're gonna party!",
           "author": "25 Cent",
           "date": "2011-12-02T17:57:28.556094Z"
+        },
+        {
+          "rating": "5",
+          "author": "Pedro Picapiedra",
+          "comment": "Yabadabadooo",
+          "date": "2016-07-10T15:52:31.893Z"
+        },
+        {
+          "rating": 5,
+          "date": "2016-07-10T16:04:59.445Z"
         }
       ]
     },
