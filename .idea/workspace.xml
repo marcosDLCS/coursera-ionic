@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7c8611a-ba42-4cf9-8598-42777b446c30" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionic/conFusion/www/templates/favorites.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/conFusion/www/js/app.js" afterPath="$PROJECT_DIR$/ionic/conFusion/www/js/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/conFusion/www/js/controllers.js" afterPath="$PROJECT_DIR$/ionic/conFusion/www/js/controllers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/conFusion/www/js/services.js" afterPath="$PROJECT_DIR$/ionic/conFusion/www/js/services.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/conFusion/www/templates/sidebar.html" afterPath="$PROJECT_DIR$/ionic/conFusion/www/templates/sidebar.html" />
     </list>
     <ignored path="coursera-ionic.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,7 +33,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sidebar.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="sidebar.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ionic/conFusion/www/templates/sidebar.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="501">
@@ -61,8 +56,8 @@
       <file leaf-file-name="controllers.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ionic/conFusion/www/js/controllers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="790">
-              <caret line="287" column="0" selection-start-line="287" selection-start-column="0" selection-end-line="287" selection-end-column="0" />
+            <state relative-caret-position="530">
+              <caret line="269" column="11" selection-start-line="269" selection-start-column="11" selection-end-line="269" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -78,11 +73,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="favorites.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="favorites.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ionic/conFusion/www/templates/favorites.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
+            <state relative-caret-position="200">
+              <caret line="10" column="84" selection-start-line="10" selection-start-column="84" selection-end-line="10" selection-end-column="84" />
               <folding>
                 <element signature="n#style#0;n#span#0;n#h2#0;n#ion-item#0;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
               </folding>
@@ -123,10 +118,10 @@
         <option value="$PROJECT_DIR$/ionic/conFusion/www/templates/reserve.html" />
         <option value="$PROJECT_DIR$/ionic/conFusion/www/templates/menu.html" />
         <option value="$PROJECT_DIR$/ionic/conFusion/www/js/services.js" />
-        <option value="$PROJECT_DIR$/ionic/conFusion/www/templates/favorites.html" />
         <option value="$PROJECT_DIR$/ionic/conFusion/www/js/app.js" />
-        <option value="$PROJECT_DIR$/ionic/conFusion/www/js/controllers.js" />
         <option value="$PROJECT_DIR$/ionic/conFusion/www/templates/sidebar.html" />
+        <option value="$PROJECT_DIR$/ionic/conFusion/www/js/controllers.js" />
+        <option value="$PROJECT_DIR$/ionic/conFusion/www/templates/favorites.html" />
       </list>
     </option>
   </component>
@@ -351,12 +346,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1468160757170</updated>
-      <workItem from="1468160758226" duration="1783000" />
+      <workItem from="1468160758226" duration="1951000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1783000" />
+    <option name="totallyTimeSpent" value="1951000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="45" y="24" width="1875" height="1056" extended-state="6" />
@@ -422,28 +417,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ionic/conFusion/www/templates/favorites.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#h2#0;n#ion-item#0;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ionic/conFusion/www/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="650">
           <caret line="69" column="34" selection-start-line="69" selection-start-column="34" selection-end-line="69" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ionic/conFusion/www/js/controllers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="790">
-          <caret line="287" column="0" selection-start-line="287" selection-start-column="0" selection-end-line="287" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -453,6 +430,24 @@
         <state relative-caret-position="501">
           <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ionic/conFusion/www/js/controllers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="269" column="11" selection-start-line="269" selection-start-column="11" selection-end-line="269" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ionic/conFusion/www/templates/favorites.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="84" selection-start-line="10" selection-start-column="84" selection-end-line="10" selection-end-column="84" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#h2#0;n#ion-item#0;n#ion-list#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
