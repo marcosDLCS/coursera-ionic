@@ -1,39 +1,54 @@
 'use strict';
 
 angular.module('conFusion.services', ['ngResource'])
-    .constant('baseURL', 'http://localhost:3000/')
-    .service('menuFactory', ['$resource', 'baseURL', function ($resource, baseURL) {
+  .constant('baseURL', 'http://localhost:3000/')
+  .service('menuFactory', ['$resource', 'baseURL', function ($resource, baseURL) {
 
-        this.getDishes = function () {
-            return $resource(baseURL + "dishes/:id", null, {'update': {method: 'PUT'}});
-        };
+    this.getDishes = function () {
+      return $resource(baseURL + "dishes/:id", null, {'update': {method: 'PUT'}});
+    };
 
-        this.getPromotions = function () {
-            return $resource(baseURL + "promotions/:id", null, {'update': {method: 'PUT'}});
-        };
+    this.getPromotions = function () {
+      return $resource(baseURL + "promotions/:id", null, {'update': {method: 'PUT'}});
+    };
 
-    }])
+  }])
 
-    .factory('corporateFactory', ['$resource', 'baseURL', function ($resource, baseURL) {
+  .factory('corporateFactory', ['$resource', 'baseURL', function ($resource, baseURL) {
 
-        var corpfac = {};
+    var corpfac = {};
 
-        corpfac.getLeaders = function () {
-            return $resource(baseURL + "leadership/:id", null, {'update': {method: 'PUT'}});
-        };
+    corpfac.getLeaders = function () {
+      return $resource(baseURL + "leadership/:id", null, {'update': {method: 'PUT'}});
+    };
 
-        return corpfac;
-    }])
+    return corpfac;
+  }])
 
-    .factory('feedbackFactory', ['$resource', 'baseURL', function ($resource, baseURL) {
+  .factory('feedbackFactory', ['$resource', 'baseURL', function ($resource, baseURL) {
 
-        var feedfac = {};
+    var feedfac = {};
 
-        feedfac.getFeedback = function () {
-            return $resource(baseURL + "feedback/:id", null, {'update': {method: 'PUT'}});
-        };
+    feedfac.getFeedback = function () {
+      return $resource(baseURL + "feedback/:id", null, {'update': {method: 'PUT'}});
+    };
 
-        return feedfac;
-    }])
+    return feedfac;
+  }])
+
+  .factory('favoriteFactory', ['$resource', 'baseURL', function ($resource, baseURL) {
+    var favFac = {};
+    var favorites = [];
+
+    favFac.addToFavorites = function (index) {
+      for (var i = 0; i < favorites.length; i++) {
+        if (favorites[i].id == index)
+          return;
+      }
+      favorites.push({id: index});
+    };
+
+    return favFac;
+  }])
 
 ;
