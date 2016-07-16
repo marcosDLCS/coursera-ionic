@@ -80,7 +80,7 @@ angular.module('conFusion.controllers', [])
 
       $scope.showMenu = false;
       $scope.message = "Loading ...";
-      menuFactory.getDishes().query(
+      menuFactory.query(
         function (response) {
           $scope.dishes = response;
           $scope.showMenu = true;
@@ -150,8 +150,14 @@ angular.module('conFusion.controllers', [])
     };
   }])
 
-  .controller('DishDetailController', ['$scope', '$stateParams', 'menuFactory', 'favoriteFactory', 'baseURL', '$ionicPopover', '$ionicModal',
-    function ($scope, $stateParams, menuFactory, favoriteFactory, baseURL, $ionicPopover, $ionicModal) {
+  .controller('DishDetailController', ['$scope', '$stateParams', 'dish', 'menuFactory', 'favoriteFactory',
+    'baseURL', '$ionicPopover', '$ionicModal',
+    function ($scope, $stateParams, dish, menuFactory, favoriteFactory, baseURL, $ionicPopover, $ionicModal) {
+
+      $scope.baseURL = baseURL;
+      $scope.dish = dish;
+      $scope.showDish = false;
+      $scope.message = "Loading ...";
 
       $ionicPopover.fromTemplateUrl('templates/dish-detail-popover.html', {
         scope: $scope
@@ -166,25 +172,11 @@ angular.module('conFusion.controllers', [])
         $scope.popover.hide();
       };
 
-      $scope.baseURL = baseURL;
-      $scope.showDish = false;
-      $scope.message = "Loading ...";
-      $scope.dish = menuFactory.getDishes().get({id: parseInt($stateParams.id, 10)})
-        .$promise.then(
-          function (response) {
-            $scope.dish = response;
-            $scope.showDish = true;
-          },
-          function (response) {
-            $scope.message = "Error: " + response.status + " " + response.statusText;
-          }
-        );
-
       $scope.addFavorite = function () {
         console.log("index is " + $scope.dish.id);
         favoriteFactory.addToFavorites($scope.dish.id);
         $scope.closePopover();
-      }
+      };
 
       $scope.comment = {};
 
@@ -207,7 +199,7 @@ angular.module('conFusion.controllers', [])
         console.log($scope.comment);
         $scope.dish.comments.push($scope.comment);
 
-        menuFactory.getDishes().update({id: $scope.dish.id}, $scope.dish);
+        menuFactory.update({id: $scope.dish.id}, $scope.dish);
         $scope.comment = {rating: 5};
         $scope.closePopover();
         $scope.closeComment();
@@ -224,54 +216,41 @@ angular.module('conFusion.controllers', [])
       console.log($scope.mycomment);
       $scope.dish.comments.push($scope.mycomment);
 
-      menuFactory.getDishes().update({id: $scope.dish.id}, $scope.dish);
+      menuFactory.update({id: $scope.dish.id}, $scope.dish);
       $scope.commentForm.$setPristine();
       $scope.mycomment = {rating: 5, comment: "", author: "", date: ""};
     };
   }])
 
-  .controller('IndexController', ['$scope', 'menuFactory', 'corporateFactory', 'baseURL', function ($scope, menuFactory, corporateFactory, baseURL) {
+  .controller('IndexController', ['$scope', 'menuFactory', 'promotionFactory', 'corporateFactory', 'baseURL',
+    function ($scope, menuFactory, promotionFactory, corporateFactory, baseURL) {
 
-    $scope.baseURL = baseURL;
-    $scope.showDish = false;
-    $scope.showPromotion = false;
-    $scope.showLeader = false;
-    $scope.message = "Loading ...";
+      $scope.baseURL = baseURL;
+      $scope.leader = corporateFactory.get({
+        id: 3
+      });
 
-    $scope.featuredDish = menuFactory.getDishes().get({id: 0})
-      .$promise.then(
-        function (response) {
-          $scope.featuredDish = response;
-          $scope.showDish = true;
-        },
-        function (response) {
-          $scope.message = "Error: " + response.status + " " + response.statusText;
-        }
-      );
+      $scope.showDish = false;
+      $scope.message = "Loading ...";
 
-    $scope.featuredPromotion = menuFactory.getPromotions().get({id: 0})
-      .$promise.then(
-        function (response) {
-          $scope.featuredPromotion = response;
-          $scope.showPromotion = true;
-        },
-        function (response) {
-          $scope.message = "Error: " + response.status + " " + response.statusText;
-        }
-      );
+      $scope.dish = menuFactory.get({
+        id: 0
+      })
+        .$promise.then(
+          function (response) {
+            $scope.dish = response;
+            $scope.showDish = true;
+          },
+          function (response) {
+            $scope.message = "Error: " + response.status + " " + response.statusText;
+          }
+        );
 
-    $scope.executiveChef = corporateFactory.getLeaders().get({id: 3})
-      .$promise.then(
-        function (response) {
-          $scope.executiveChef = response;
-          $scope.showLeader = true;
-        },
-        function (response) {
-          $scope.message = "Error: " + response.status + " " + response.statusText;
-        }
-      );
+      $scope.promotion = promotionFactory.get({
+        id: 0
+      });
 
-  }])
+    }])
 
   .controller('AboutController', ['$scope', 'corporateFactory', 'baseURL', function ($scope, corporateFactory, baseURL) {
 
@@ -289,12 +268,14 @@ angular.module('conFusion.controllers', [])
 
   }])
 
-  .controller('FavoritesController', ['$scope', 'menuFactory', 'favoriteFactory', 'baseURL', '$ionicListDelegate',
-    '$ionicPopup', '$ionicLoading', '$timeout',
-    function ($scope, menuFactory, favoriteFactory, baseURL, $ionicListDelegate, $ionicPopup, $ionicLoading, $timeout) {
+  .controller('FavoritesController', ['$scope', 'dishes', 'favorites', 'favoriteFactory', 'menuFactory', 'baseURL',
+    '$ionicListDelegate', '$ionicPopup', '$ionicLoading', '$timeout',
+    function ($scope, dishes, favorites, favoriteFactory, menuFactory, baseURL, $ionicListDelegate, $ionicPopup, $ionicLoading, $timeout) {
 
       $scope.baseURL = baseURL;
       $scope.shouldShowDelete = false;
+      $scope.favorites = favorites;
+      $scope.dishes = dishes;
 
       $ionicLoading.show({
         template: '<ion-spinner></ion-spinner> Loading...'
@@ -302,7 +283,7 @@ angular.module('conFusion.controllers', [])
 
       $scope.favorites = favoriteFactory.getFavorites();
 
-      $scope.dishes = menuFactory.getDishes().query(
+      $scope.dishes = menuFactory.query(
         function (response) {
           $scope.dishes = response;
           $timeout(function () {
@@ -319,7 +300,7 @@ angular.module('conFusion.controllers', [])
       $scope.toggleDelete = function () {
         $scope.shouldShowDelete = !$scope.shouldShowDelete;
         console.log($scope.shouldShowDelete);
-      }
+      };
 
       $scope.deleteFavorite = function (index) {
 

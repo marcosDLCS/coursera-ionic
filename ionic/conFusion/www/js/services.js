@@ -4,36 +4,24 @@ angular.module('conFusion.services', ['ngResource'])
   .constant('baseURL', 'http://localhost:3000/')
   .service('menuFactory', ['$resource', 'baseURL', function ($resource, baseURL) {
 
-    this.getDishes = function () {
-      return $resource(baseURL + "dishes/:id", null, {'update': {method: 'PUT'}});
-    };
-
-    this.getPromotions = function () {
-      return $resource(baseURL + "promotions/:id", null, {'update': {method: 'PUT'}});
-    };
+    return $resource(baseURL + "dishes/:id", null, {
+      'update': {
+        method: 'PUT'
+      }
+    });
 
   }])
 
   .factory('corporateFactory', ['$resource', 'baseURL', function ($resource, baseURL) {
 
-    var corpfac = {};
+    return $resource(baseURL + "leadership/:id", null, {'update': {method: 'PUT'}});
 
-    corpfac.getLeaders = function () {
-      return $resource(baseURL + "leadership/:id", null, {'update': {method: 'PUT'}});
-    };
-
-    return corpfac;
   }])
 
   .factory('feedbackFactory', ['$resource', 'baseURL', function ($resource, baseURL) {
 
-    var feedfac = {};
+    return $resource(baseURL + "feedback/:id", null, {'update': {method: 'PUT'}});
 
-    feedfac.getFeedback = function () {
-      return $resource(baseURL + "feedback/:id", null, {'update': {method: 'PUT'}});
-    };
-
-    return feedfac;
   }])
 
   .factory('favoriteFactory', ['$resource', 'baseURL', function ($resource, baseURL) {
@@ -61,6 +49,11 @@ angular.module('conFusion.services', ['ngResource'])
     };
 
     return favFac;
+  }])
+
+  .factory('promotionFactory', ['$resource', 'baseURL', function ($resource, baseURL) {
+    return $resource(baseURL + "promotions/:id");
+
   }])
 
 ;
