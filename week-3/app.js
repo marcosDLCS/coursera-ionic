@@ -41,11 +41,6 @@ angular.module('conFusion', ['ionic', 'conFusion.controllers', 'conFusion.servic
       $rootScope.$broadcast('loading:hide');
     });
 
-    $rootScope.$on('favoritesAdded', function () {
-      console.log('favoritesAdded');
-      $rootScope.$broadcast('favoritesChanged');
-    });
-
   })
 
   .config(function ($stateProvider, $urlRouterProvider) {
