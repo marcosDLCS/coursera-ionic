@@ -2,17 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7c8611a-ba42-4cf9-8598-42777b446c30" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/coursera-ionic.iml" afterPath="$PROJECT_DIR$/.idea/coursera-ionic.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionic/conFusion/www/templates/register.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/conFusion/resources/android/icon/drawable-hdpi-icon.png" afterPath="$PROJECT_DIR$/ionic/conFusion/resources/android/icon/drawable-hdpi-icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/conFusion/resources/android/icon/drawable-ldpi-icon.png" afterPath="$PROJECT_DIR$/ionic/conFusion/resources/android/icon/drawable-ldpi-icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/conFusion/resources/android/icon/drawable-mdpi-icon.png" afterPath="$PROJECT_DIR$/ionic/conFusion/resources/android/icon/drawable-mdpi-icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/conFusion/resources/android/icon/drawable-xhdpi-icon.png" afterPath="$PROJECT_DIR$/ionic/conFusion/resources/android/icon/drawable-xhdpi-icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/conFusion/resources/android/icon/drawable-xxhdpi-icon.png" afterPath="$PROJECT_DIR$/ionic/conFusion/resources/android/icon/drawable-xxhdpi-icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/conFusion/resources/android/icon/drawable-xxxhdpi-icon.png" afterPath="$PROJECT_DIR$/ionic/conFusion/resources/android/icon/drawable-xxxhdpi-icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/conFusion/resources/android/splash/drawable-land-hdpi-screen.png" afterPath="$PROJECT_DIR$/ionic/conFusion/resources/android/splash/drawable-land-hdpi-screen.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/conFusion/resources/android/splash/drawable-land-ldpi-screen.png" afterPath="$PROJECT_DIR$/ionic/conFusion/resources/android/splash/drawable-land-ldpi-screen.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/conFusion/resources/android/splash/drawable-land-mdpi-screen.png" afterPath="$PROJECT_DIR$/ionic/conFusion/resources/android/splash/drawable-land-mdpi-screen.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/conFusion/resources/android/splash/drawable-land-xhdpi-screen.png" afterPath="$PROJECT_DIR$/ionic/conFusion/resources/android/splash/drawable-land-xhdpi-screen.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/conFusion/resources/android/splash/drawable-land-xxhdpi-screen.png" afterPath="$PROJECT_DIR$/ionic/conFusion/resources/android/splash/drawable-land-xxhdpi-screen.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/conFusion/resources/android/splash/drawable-land-xxxhdpi-screen.png" afterPath="$PROJECT_DIR$/ionic/conFusion/resources/android/splash/drawable-land-xxxhdpi-screen.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/conFusion/resources/android/splash/drawable-port-hdpi-screen.png" afterPath="$PROJECT_DIR$/ionic/conFusion/resources/android/splash/drawable-port-hdpi-screen.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/conFusion/resources/android/splash/drawable-port-ldpi-screen.png" afterPath="$PROJECT_DIR$/ionic/conFusion/resources/android/splash/drawable-port-ldpi-screen.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/conFusion/resources/android/splash/drawable-port-mdpi-screen.png" afterPath="$PROJECT_DIR$/ionic/conFusion/resources/android/splash/drawable-port-mdpi-screen.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/conFusion/resources/android/splash/drawable-port-xhdpi-screen.png" afterPath="$PROJECT_DIR$/ionic/conFusion/resources/android/splash/drawable-port-xhdpi-screen.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/conFusion/resources/android/splash/drawable-port-xxhdpi-screen.png" afterPath="$PROJECT_DIR$/ionic/conFusion/resources/android/splash/drawable-port-xxhdpi-screen.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/conFusion/resources/android/splash/drawable-port-xxxhdpi-screen.png" afterPath="$PROJECT_DIR$/ionic/conFusion/resources/android/splash/drawable-port-xxxhdpi-screen.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/conFusion/resources/icon.png" afterPath="$PROJECT_DIR$/ionic/conFusion/resources/icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/conFusion/resources/splash.png" afterPath="$PROJECT_DIR$/ionic/conFusion/resources/splash.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/conFusion/bower.json" afterPath="$PROJECT_DIR$/ionic/conFusion/bower.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/conFusion/config.xml" afterPath="$PROJECT_DIR$/ionic/conFusion/config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/conFusion/package.json" afterPath="$PROJECT_DIR$/ionic/conFusion/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/conFusion/www/index.html" afterPath="$PROJECT_DIR$/ionic/conFusion/www/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/conFusion/www/js/app.js" afterPath="$PROJECT_DIR$/ionic/conFusion/www/js/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/conFusion/www/js/controllers.js" afterPath="$PROJECT_DIR$/ionic/conFusion/www/js/controllers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/conFusion/www/js/services.js" afterPath="$PROJECT_DIR$/ionic/conFusion/www/js/services.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/week-3/app.js" afterPath="$PROJECT_DIR$/week-3/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/week-3/controllers.js" afterPath="$PROJECT_DIR$/week-3/controllers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/week-3/services.js" afterPath="$PROJECT_DIR$/week-3/services.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/conFusion/www/templates/sidebar.html" afterPath="$PROJECT_DIR$/ionic/conFusion/www/templates/sidebar.html" />
     </list>
     <ignored path="coursera-ionic.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,58 +48,14 @@
     <favorites_list name="coursera-ionic" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="services.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ionic/conFusion/www/js/services.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/week-3/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="41" column="7" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="controllers.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ionic/conFusion/www/js/controllers.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4940">
-              <caret line="247" column="70" selection-start-line="247" selection-start-column="70" selection-end-line="247" selection-end-column="70" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="favorites.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ionic/conFusion/www/templates/favorites.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ionic/conFusion/www/js/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-320">
-              <caret line="41" column="7" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -92,7 +65,6 @@
       <list>
         <option value="$PROJECT_DIR$/ionic/conFusion/www/templates/reserve.html" />
         <option value="$PROJECT_DIR$/ionic/conFusion/www/templates/menu.html" />
-        <option value="$PROJECT_DIR$/ionic/conFusion/www/templates/sidebar.html" />
         <option value="$PROJECT_DIR$/ionic/conFusion/www/templates/favorites.html" />
         <option value="$PROJECT_DIR$/ionic/conFusion/www/templates/dishdetail.html" />
         <option value="$PROJECT_DIR$/ionic/conFusion/www/css/style.css" />
@@ -102,9 +74,13 @@
         <option value="$PROJECT_DIR$/week-2/controllers.js" />
         <option value="$PROJECT_DIR$/ionic/conFusion/www/templates/home.html" />
         <option value="$PROJECT_DIR$/week-3/app.js" />
-        <option value="$PROJECT_DIR$/ionic/conFusion/www/js/app.js" />
-        <option value="$PROJECT_DIR$/ionic/conFusion/www/js/controllers.js" />
         <option value="$PROJECT_DIR$/ionic/conFusion/www/js/services.js" />
+        <option value="$PROJECT_DIR$/ionic/conFusion/config.xml" />
+        <option value="$PROJECT_DIR$/ionic/conFusion/www/index.html" />
+        <option value="$PROJECT_DIR$/ionic/conFusion/www/js/app.js" />
+        <option value="$PROJECT_DIR$/ionic/conFusion/www/templates/sidebar.html" />
+        <option value="$PROJECT_DIR$/ionic/conFusion/www/js/controllers.js" />
+        <option value="$PROJECT_DIR$/ionic/conFusion/www/templates/register.html" />
       </list>
     </option>
   </component>
@@ -145,6 +121,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -178,9 +155,26 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="coursera-ionic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="coursera-ionic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ionic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="conFusion" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -192,6 +186,7 @@
     <property name="editor.config.accepted" value="true" />
     <property name="js-jscs-nodeInterpreter" value="/usr/bin/node" />
     <property name="nodejs_interpreter_path" value="/usr/bin/node" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -272,32 +267,35 @@
       <workItem from="1471166682854" duration="9000" />
       <workItem from="1471166702730" duration="4000" />
       <workItem from="1471166713884" duration="6051000" />
+      <workItem from="1471253000256" duration="915000" />
+      <workItem from="1471258112244" duration="2497000" />
+      <workItem from="1471371886374" duration="1901000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23462000" />
+    <option name="totallyTimeSpent" value="28775000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="45" y="24" width="1875" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18898489" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17818575" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -316,6 +314,100 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ionic/conFusion/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="19" column="58" selection-start-line="19" selection-start-column="58" selection-end-line="19" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ionic/conFusion/www/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="74" selection-start-line="8" selection-start-column="74" selection-end-line="8" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ionic/conFusion/www/lib/ngCordova/dist/ng-cordova.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ionic/conFusion/www/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" column="60" selection-start-line="16" selection-start-column="60" selection-end-line="16" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ionic/conFusion/www/js/controllers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4940">
+          <caret line="247" column="70" selection-start-line="247" selection-start-column="70" selection-end-line="247" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ionic/conFusion/www/js/services.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ionic/conFusion/www/js/controllers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4940">
+          <caret line="247" column="70" selection-start-line="247" selection-start-column="70" selection-end-line="247" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ionic/conFusion/www/js/services.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week-3/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="820">
+          <caret line="41" column="7" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ionic/conFusion/www/js/controllers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4940">
+          <caret line="247" column="70" selection-start-line="247" selection-start-column="70" selection-end-line="247" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ionic/conFusion/www/templates/favorites.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ionic/conFusion/www/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="820">
+          <caret line="41" column="7" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ionic/conFusion/www/js/services.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -336,7 +428,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -344,7 +435,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
           <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -376,7 +466,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -384,7 +473,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
           <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -416,7 +504,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -424,7 +511,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
           <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -461,13 +547,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
           <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ionic/conFusion/www/templates/sidebar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -531,7 +610,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="620">
           <caret line="124" column="43" selection-start-line="124" selection-start-column="10" selection-end-line="124" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -539,30 +617,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
           <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/week-3/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
+        <state relative-caret-position="820">
           <caret line="41" column="7" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ionic/conFusion/www/js/app.js">
+    <entry file="file://$PROJECT_DIR$/ionic/conFusion/config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-320">
-          <caret line="41" column="7" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ionic/conFusion/www/js/controllers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4940">
-          <caret line="247" column="70" selection-start-line="247" selection-start-column="70" selection-end-line="247" selection-end-column="70" />
+        <state relative-caret-position="380">
+          <caret line="19" column="58" selection-start-line="19" selection-start-column="58" selection-end-line="19" selection-end-column="58" />
           <folding />
         </state>
       </provider>
@@ -570,7 +638,63 @@
     <entry file="file://$PROJECT_DIR$/ionic/conFusion/www/js/services.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
+          <caret line="3" column="50" selection-start-line="3" selection-start-column="50" selection-end-line="3" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ionic/conFusion/www/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" column="60" selection-start-line="16" selection-start-column="60" selection-end-line="16" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ionic/conFusion/www/lib/ngCordova/dist/ng-cordova.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="6828" column="22" selection-start-line="6828" selection-start-column="20" selection-end-line="6828" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ionic/conFusion/www/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="74" selection-start-line="8" selection-start-column="74" selection-end-line="8" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ionic/conFusion/www/lib/ngCordova/dist/ng-cordova-mocks.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="3306" column="23" selection-start-line="3306" selection-start-column="23" selection-end-line="3306" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ionic/conFusion/www/templates/sidebar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="708">
+          <caret line="41" column="19" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ionic/conFusion/www/js/controllers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="123" column="7" selection-start-line="123" selection-start-column="7" selection-end-line="123" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ionic/conFusion/www/templates/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="760">
+          <caret line="47" column="17" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
           <folding />
         </state>
       </provider>
